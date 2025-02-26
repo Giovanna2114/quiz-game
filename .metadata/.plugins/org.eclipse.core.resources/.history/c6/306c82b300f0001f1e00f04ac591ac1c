@@ -1,0 +1,29 @@
+package interativo.quiz;
+
+import java.util.Scanner;
+
+public class Quiz {
+	
+	public static void main(String[]args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("   *****************************   ");
+		System.out.println("   Bem vindo ao quiz técnológico   ");
+		System.out.println("   *****************************   \n");
+		
+		System.out.println("  Aperte enter para iniciar o quiz");
+		sc.nextLine();
+		
+		// PERGUNTAS
+		
+		// ALTERNATIVAS
+		
+		//LÓGICA DO JOGO
+		
+		//QTD ACERTOS
+		
+		sc.close();
+	}
+
+}

@@ -1,0 +1,42 @@
+package interativo.quiz;
+
+import java.util.Scanner;
+
+public class Quiz {
+	
+	public static void main(String[]args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("   *****************************   ");
+		System.out.println("   Bem vindo ao quiz técnológico   ");
+		System.out.println("   *****************************   \n");
+		
+		System.out.println("  Aperte enter para iniciar o quiz");
+		sc.nextLine();
+		
+		// PERGUNTAS
+		
+		String[] perguntas = {"1 - O que significa a sigla CPU?",
+				              "2 - Quem escreveu o primeiro algoritmo de computador?",
+				              "3 - Qual o nome do fundador da Apple",
+				              "4 - Quantos bits equivalem a 1 byte?"};
+		
+		// ALTERNATIVAS
+		
+		String[][] alternativas = {{"A. Central Programation Utility","B. Central Processing Unit","C. Computers, Programing,Unix","D. Central Processing Utility"},
+				{"A. Ada Lovelace","B. Audrey Hepburn","C. Marrie Currie","D. Charles Babbage"},
+				{"A. Bill Gates","B. Elon Musk","C. Steve Jobs","D. Sam altman"},
+				{"A. 16 bits","B. 2 bits","C. 10 bits","D. 8 bits"}};
+		
+		//LÓGICA DO JOGO
+		
+		for (String question: perguntas) 
+		{}
+		
+		//QTD ACERTOS
+		
+		sc.close();
+	}
+
+}

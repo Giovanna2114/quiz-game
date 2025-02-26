@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Projetos\QuizTeste\.metadata\.plugins\org.eclipse.jdt.core
+2176062597.index
+1865797976.index
+3862792047.index

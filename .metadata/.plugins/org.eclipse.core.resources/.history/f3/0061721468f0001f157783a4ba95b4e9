@@ -1,0 +1,36 @@
+package interativo.quiz;
+
+import java.util.Scanner;
+
+public class Quiz {
+	
+	public static void main(String[]args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("   *****************************   ");
+		System.out.println("   Bem vindo ao quiz técnológico   ");
+		System.out.println("   *****************************   \n");
+		
+		System.out.println("  Aperte enter para iniciar o quiz");
+		sc.nextLine();
+		
+		// PERGUNTAS
+		
+		String[] perguntas = {"1 - O que significa a sigla CPU?",
+				              "2 - Quem escreveu o primeiro algoritmo de computador?",
+				              "3 - Qual o nome do fundador da Apple",
+				              "4 - O que é a notação big O?"};
+		
+		// ALTERNATIVAS
+		
+		String[][] alternativas = {{"A.","B","C","D","E"},{"A. Ada Lovelace","B","C","D","E"},{"A.","B","C","D","E"},{"A.","B","C","D","E"}};
+		
+		//LÓGICA DO JOGO
+		
+		//QTD ACERTOS
+		
+		sc.close();
+	}
+
+}
